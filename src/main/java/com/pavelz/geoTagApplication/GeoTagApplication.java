@@ -1,10 +1,13 @@
-package com.pavelz.geoTagApplication;
+package com.pavelz.GeoTagApplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class GeoTagApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(GeoTagApplication.class, args); }
+
+	public static void main(String[] args) {
+		SpringApplication.run(GeoTagApplication.class, args);
+	}
+
 }
